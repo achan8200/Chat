@@ -1,0 +1,16 @@
+In client directory:
+npm install react@17.0.2 react-dom@17.0.2 --force
+npm install stream-chat@4.1.0 stream-chat-react@6.5.1 universal-cookie --force
+npm install axios
+
+To run client:
+npm start
+
+In server directory:
+npm install bcrypt crypto dotenv express getstream stream-chat@4.1.0 nodemon twilio --force
+npm install cors
+
+To run server:
+npm run start
+Or
+npm run dev
